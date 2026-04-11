@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+.next/
+out/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code project settings (contains MC_API_KEY for local MCP server)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# OpenClaw agent framework (workspace-local, not product code)
+SOUL.md
+AGENTS.md
+IDENTITY.md
+HEARTBEAT.md
+TOOLS.md
+USER.md
+.openclaw/
