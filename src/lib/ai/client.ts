@@ -30,4 +30,4 @@ export const MODELS = {
 
 export const DEFAULT_TEMPERATURE = 0;
 export const MAX_TOKENS_CLASSIFY = 4096;
-export const MAX_TOKENS_ASSESS = 8192;
+export const MAX_TOKENS_ASSESS = 16384;
