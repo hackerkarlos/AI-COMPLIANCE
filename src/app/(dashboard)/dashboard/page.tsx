@@ -8,6 +8,7 @@ import {
   CardTitle,
   CardContent,
   Badge,
+  Progress,
 } from '@/components/ui';
 
 interface RegulationRow {
@@ -30,8 +31,29 @@ interface ChecklistItemRow {
   id: string;
   regulation_id: string;
   title: string;
+  description: string | null;
   priority: string;
   code: string;
+}
+
+/**
+ * Get color for compliance level.
+ */
+function getComplianceColor(pct: number): string {
+  if (pct >= 90) return 'text-risk-minimal';
+  if (pct >= 70) return 'text-risk-low';
+  if (pct >= 50) return 'text-risk-medium';
+  return 'text-risk-high';
+}
+
+/**
+ * Label for urgency based on days remaining.
+ */
+function urgencyLabel(days: number): { label: string; className: string } {
+  if (days <= 0) return { label: 'Enforced', className: 'text-risk-high' };
+  if (days <= 30) return { label: `${days} days — urgent`, className: 'text-risk-high' };
+  if (days <= 90) return { label: `${days} days`, className: 'text-risk-medium' };
+  return { label: `${days} days`, className: 'text-risk-low' };
 }
 
 export default async function DashboardPage() {
@@ -192,18 +214,21 @@ export default async function DashboardPage() {
         </div>
       )}
 
-      {/* Summary Cards */}
-      <div className="grid gap-6 sm:grid-cols-3">
-        <Card className="flex flex-col items-center justify-center p-6">
-          <ComplianceScore percentage={overallScore} size={120} />
-          <p className="mt-3 text-sm font-medium">Overall Compliance</p>
-          <p className="text-xs text-[var(--color-muted-foreground)]">
+      {/* Compliance Overview */}
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {/* Overall Compliance Score — larger card */}
+        <Card className="col-span-2 flex flex-col items-center justify-center p-8 lg:col-span-1">
+          <ComplianceScore percentage={overallScore} size={110} />
+          <p className="mt-4 text-sm font-semibold">Overall Compliance</p>
+          <p className="mt-0.5 text-xs text-[var(--color-muted-foreground)]">
             {totalCompleted} of {totalItems} items completed
           </p>
         </Card>
+
+        {/* Applicable Regulations */}
         <Card className="p-6">
-          <p className="text-sm text-[var(--color-muted-foreground)]">Applicable Regulations</p>
-          <p className="mt-1 text-3xl font-bold">{regulations.length}</p>
+          <p className="text-sm font-medium text-[var(--color-muted-foreground)]">Applicable Regulations</p>
+          <p className="mt-1 text-4xl font-bold">{regulations.length}</p>
           <p className="mt-2 text-xs text-[var(--color-muted-foreground)]">
             {
               regulations.filter((r) => {
@@ -214,9 +239,22 @@ export default async function DashboardPage() {
             fully compliant
           </p>
         </Card>
+
+        {/* Total Checklist Items */}
         <Card className="p-6">
-          <p className="text-sm text-[var(--color-muted-foreground)]">Urgent Actions</p>
-          <p className="mt-1 text-3xl font-bold">{urgentItems.length}</p>
+          <p className="text-sm font-medium text-[var(--color-muted-foreground)]">Checklist Items</p>
+          <p className="mt-1 text-4xl font-bold">{totalItems}</p>
+          <p className="mt-2 text-xs text-[var(--color-muted-foreground)]">
+            across {regulations.length} regulations
+          </p>
+        </Card>
+
+        {/* Urgent Actions */}
+        <Card className="p-6">
+          <p className="text-sm font-medium text-[var(--color-muted-foreground)]">Urgent Actions</p>
+          <p className={`mt-1 text-4xl font-bold ${urgentItems.length > 0 ? getComplianceColor(urgentItems.length > 3 ? 0 : 40) : 'text-risk-minimal'}`}>
+            {urgentItems.length}
+          </p>
           <p className="mt-2 text-xs text-[var(--color-muted-foreground)]">
             Critical & high priority items pending
           </p>
@@ -227,38 +265,67 @@ export default async function DashboardPage() {
       <section>
         <h2 className="mb-4 text-lg font-semibold">Regulation Status</h2>
         {sortedRegs.length === 0 ? (
-          <p className="text-sm text-[var(--color-muted-foreground)]">
-            No applicable regulations found.
-          </p>
+          <Card className="p-10 text-center">
+            <p className="text-lg font-medium">No applicable regulations found</p>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
+              Complete onboarding to determine which regulations apply to your company.
+            </p>
+          </Card>
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {sortedRegs.map((cr) => {
               const reg = cr.regulation;
               const compliance = getRegCompliance(cr.regulation_id);
               const stats = regStats.get(cr.regulation_id);
+              const color = getComplianceColor(compliance);
+              const deadline = reg.enforcement_date
+                ? new Date(reg.enforcement_date)
+                : null;
+              const daysRemaining = deadline
+                ? daysUntil(deadline)
+                : null;
+              const urgency = daysRemaining !== null
+                ? urgencyLabel(Math.max(daysRemaining, 0))
+                : null;
+
               return (
-                <Card key={cr.id}>
+                <Card key={cr.id} className="flex flex-col transition-shadow hover:shadow-md">
                   <CardHeader>
                     <div className="flex items-start justify-between">
-                      <CardTitle className="text-base">{reg.short_name}</CardTitle>
+                      <div className="space-y-0.5">
+                        <CardTitle className="text-base">{reg.short_name}</CardTitle>
+                        <p className="text-xs text-[var(--color-muted-foreground)]">{reg.name}</p>
+                      </div>
                       <Badge variant={reg.risk_level}>{reg.risk_level}</Badge>
                     </div>
-                    <p className="text-xs text-[var(--color-muted-foreground)]">{reg.name}</p>
                   </CardHeader>
-                  <CardContent>
+                  <CardContent className="flex-1">
                     <div className="flex items-center gap-3">
-                      <ComplianceScore percentage={compliance} size={48} />
+                      <ComplianceScore percentage={compliance} size={52} />
                       <div>
-                        <p className="text-sm font-medium">{compliance}% compliant</p>
+                        <p className={`text-sm font-semibold ${color}`}>{compliance}% compliant</p>
                         <p className="text-xs text-[var(--color-muted-foreground)]">
                           {stats?.completed ?? 0}/{stats?.total ?? 0} items
                         </p>
                       </div>
                     </div>
+                    <div className="mt-3">
+                      <Progress value={compliance} />
+                    </div>
+                    {deadline && (
+                      <p className={`mt-2 text-xs ${urgency?.className}`}>
+                        Enforcement: {deadline.toLocaleDateString('en-DK', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                        })}{' '}
+                        · {urgency?.label}
+                      </p>
+                    )}
                   </CardContent>
                   <div className="border-t border-[var(--color-border)] px-6 py-3">
                     <Link
-                      href="/regulations"
+                      href={`/regulations`}
                       className="text-sm font-medium text-[var(--color-accent)] hover:underline"
                     >
                       View Checklist →
@@ -272,26 +339,40 @@ export default async function DashboardPage() {
       </section>
 
       {/* Urgent Action Items */}
-      {urgentItems.length > 0 && (
-        <section>
-          <h2 className="mb-4 text-lg font-semibold">Urgent Actions</h2>
+      <section>
+        <h2 className="mb-4 text-lg font-semibold">Urgent Actions</h2>
+        {urgentItems.length === 0 ? (
+          <Card className="p-10 text-center">
+            <p className="text-lg font-medium">All clear!</p>
+            <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
+              No critical or high-priority items are pending. Great job!
+            </p>
+          </Card>
+        ) : (
           <Card>
             <ul className="divide-y divide-[var(--color-border)]">
               {urgentItems.map((item) => (
                 <li key={item.id} className="flex items-center justify-between px-6 py-4">
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-medium">{item.title}</p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-sm font-medium">{item.title}</p>
+                      <Badge variant={item.priority as 'critical' | 'high'}>{item.priority}</Badge>
+                    </div>
                     <p className="text-xs text-[var(--color-muted-foreground)]">
                       {item.regulationName} · {item.code}
                     </p>
+                    {item.description && (
+                      <p className="mt-1 truncate text-xs text-[var(--color-muted-foreground)]">
+                        {item.description}
+                      </p>
+                    )}
                   </div>
-                  <Badge variant={item.priority as 'critical' | 'high'}>{item.priority}</Badge>
                 </li>
               ))}
             </ul>
           </Card>
-        </section>
-      )}
+        )}
+      </section>
     </div>
   );
 }
