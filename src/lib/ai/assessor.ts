@@ -243,7 +243,7 @@ Assess the company against every checklist item. Be specific about findings and 
 // ─── Helpers ─────────────────────────────────────────────────
 
 function formatCompanyForAssessment(company: Company): string {
-  const lines: string[] = [
+  const lines: (string | null)[] = [
     `Company: ${company.name}`,
     company.cvr_number ? `CVR: ${company.cvr_number}` : null,
     `Sector: ${company.industry_sector ?? "Not specified"}`,

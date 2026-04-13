@@ -147,7 +147,7 @@ export async function classifyRegulations(
 // ─── Helpers ─────────────────────────────────────────────────
 
 function formatCompanyProfile(company: Company): string {
-  const lines: string[] = [
+  const lines: (string | null)[] = [
     `Company name: ${company.name}`,
     company.cvr_number ? `CVR: ${company.cvr_number}` : null,
     `Industry sector: ${company.industry_sector ?? "Not specified"}`,
