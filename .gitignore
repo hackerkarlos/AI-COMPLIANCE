@@ -41,3 +41,8 @@ HEARTBEAT.md
 TOOLS.md
 USER.md
 .openclaw/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
