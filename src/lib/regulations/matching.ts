@@ -5,12 +5,18 @@ export interface CompanyProfile {
   cvr_number: string;
   industry_sector: string;
   employee_count: number;
+  // Step 2: Data & Privacy
   processes_personal_data: boolean;
+  processes_special_categories: boolean;
   uses_ai_systems: boolean;
+  // Step 3: Digital Presence
   operates_online: boolean;
   processes_payments: boolean;
+  annual_turnover_eur: number | null;
+  // Step 4: Infrastructure
   is_financial_entity: boolean;
   has_critical_infrastructure: boolean;
+  contact_email: string;
 }
 
 export interface MatchResult {

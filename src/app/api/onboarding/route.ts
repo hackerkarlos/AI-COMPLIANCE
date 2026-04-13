@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { matchRegulations, type CompanyProfile } from '@/lib/regulations/matching';
 import type { Regulation } from '@/types/assessment';
+import { runAssessment } from '@/lib/ai/assess';
 
 export async function POST(request: Request) {
   try {
@@ -38,26 +39,35 @@ export async function POST(request: Request) {
       .eq('user_id', user.id)
       .single();
 
+    // Shared fields for insert/update
+    const companyFields = {
+      name: body.name.trim(),
+      cvr_number: body.cvr_number || null,
+      industry_sector: body.industry_sector,
+      company_size: companySize,
+      employee_count: employeeCount,
+      // Step 2: Data & Privacy
+      processes_personal_data: body.processes_personal_data,
+      processes_special_categories: body.processes_special_categories ?? false,
+      uses_ai_systems: body.uses_ai_systems,
+      // Step 3: Digital Presence
+      operates_online: body.operates_online,
+      processes_payments: body.processes_payments,
+      annual_turnover_eur: body.annual_turnover_eur ?? null,
+      // Step 4: Infrastructure
+      is_financial_entity: body.is_financial_entity,
+      has_critical_infrastructure: body.has_critical_infrastructure,
+      contact_email: body.contact_email?.trim() || null,
+      has_employees: employeeCount > 0,
+      onboarding_completed: true,
+    };
+
     let companyId: string;
 
     if (existingCompany) {
       const { error: updateError } = await supabase
         .from('companies')
-        .update({
-          name: body.name.trim(),
-          cvr_number: body.cvr_number || null,
-          industry_sector: body.industry_sector,
-          company_size: companySize,
-          employee_count: employeeCount,
-          processes_personal_data: body.processes_personal_data,
-          uses_ai_systems: body.uses_ai_systems,
-          operates_online: body.operates_online,
-          processes_payments: body.processes_payments,
-          is_financial_entity: body.is_financial_entity,
-          has_critical_infrastructure: body.has_critical_infrastructure,
-          has_employees: employeeCount > 0,
-          onboarding_completed: true,
-        })
+        .update(companyFields)
         .eq('id', existingCompany.id);
 
       if (updateError) {
@@ -68,22 +78,7 @@ export async function POST(request: Request) {
     } else {
       const { data: newCompany, error: insertError } = await supabase
         .from('companies')
-        .insert({
-          user_id: user.id,
-          name: body.name.trim(),
-          cvr_number: body.cvr_number || null,
-          industry_sector: body.industry_sector,
-          company_size: companySize,
-          employee_count: employeeCount,
-          processes_personal_data: body.processes_personal_data,
-          uses_ai_systems: body.uses_ai_systems,
-          operates_online: body.operates_online,
-          processes_payments: body.processes_payments,
-          is_financial_entity: body.is_financial_entity,
-          has_critical_infrastructure: body.has_critical_infrastructure,
-          has_employees: employeeCount > 0,
-          onboarding_completed: true,
-        })
+        .insert({ user_id: user.id, ...companyFields })
         .select('id')
         .single();
 
@@ -160,6 +155,13 @@ export async function POST(request: Request) {
           );
         }
       }
+    }
+
+    // 7. Trigger initial AI assessment for each applicable regulation (fire & forget)
+    for (const regId of applicableRegIds) {
+      runAssessment(companyId, regId).catch((err) => {
+        console.error(`Assessment failed for regulation ${regId}:`, err);
+      });
     }
 
     return NextResponse.json({

@@ -34,7 +34,7 @@ const INDUSTRY_SECTORS = [
   { value: 'water', label: 'Water Supply / Waste Management' },
   { value: 'chemicals', label: 'Chemicals' },
   { value: 'postal', label: 'Postal / Courier Services' },
-  { value: 'gambling', label: 'Gambling / Gaming' },
+  { value: 'telecom', label: 'Telecommunications' },
   { value: 'other', label: 'Other' },
 ];
 

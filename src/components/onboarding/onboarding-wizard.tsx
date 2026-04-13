@@ -1,25 +1,20 @@
 'use client';
 
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Wizard, type WizardStep } from '@/components/ui/wizard';
 import { StepCompanyBasics } from '@/components/onboarding/step-company-basics';
-import { StepActivities } from '@/components/onboarding/step-activities';
-import { StepReview } from '@/components/onboarding/step-review';
-import { StepConfirm } from '@/components/onboarding/step-confirm';
-import {
-  matchRegulations,
-  type CompanyProfile,
-  type MatchResult,
-} from '@/lib/regulations/matching';
-import { createClient } from '@/lib/supabase/browser';
-import type { Regulation } from '@/types/assessment';
+import { StepDataPrivacy } from '@/components/onboarding/step-data-privacy';
+import { StepDigitalPresence } from '@/components/onboarding/step-digital-presence';
+import { StepInfrastructure } from '@/components/onboarding/step-infrastructure';
+import { ComplianceLoading } from '@/components/onboarding/compliance-loading';
+import type { CompanyProfile } from '@/lib/regulations/matching';
 
 const WIZARD_STEPS: WizardStep[] = [
-  { id: 'basics', title: 'Company', description: 'Basic company info' },
-  { id: 'activities', title: 'Activities', description: 'Business activities' },
-  { id: 'review', title: 'Review', description: 'Applicable regulations' },
-  { id: 'confirm', title: 'Complete', description: 'Confirm & finish' },
+  { id: 'basics', title: 'Company Basics', description: 'Basic company info' },
+  { id: 'data-privacy', title: 'Data & Privacy', description: 'Data handling' },
+  { id: 'digital-presence', title: 'Digital Presence', description: 'Online operations' },
+  { id: 'infrastructure', title: 'Infrastructure', description: 'Critical systems' },
 ];
 
 const DEFAULT_PROFILE: CompanyProfile = {
@@ -28,44 +23,32 @@ const DEFAULT_PROFILE: CompanyProfile = {
   industry_sector: '',
   employee_count: 0,
   processes_personal_data: true,
+  processes_special_categories: false,
   uses_ai_systems: false,
   operates_online: true,
   processes_payments: false,
+  annual_turnover_eur: null,
   is_financial_entity: false,
   has_critical_infrastructure: false,
+  contact_email: '',
 };
 
 export function OnboardingWizard() {
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [profile, setProfile] = useState<CompanyProfile>(DEFAULT_PROFILE);
-  const [regulations, setRegulations] = useState<Regulation[]>([]);
-  const [matches, setMatches] = useState<MatchResult[]>([]);
-  const [isCompleting, setIsCompleting] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
-  // Load regulations on mount
-  useEffect(() => {
-    async function loadRegulations() {
-      const supabase = createClient();
-      const { data } = await supabase
-        .from('regulations')
-        .select('*')
-        .eq('is_active', true)
-        .order('display_order');
-      if (data) setRegulations(data as unknown as Regulation[]);
-    }
-    loadRegulations();
-  }, []);
+  // isLoading: true once the user clicks Complete — shows the loading screen
+  const [isLoading, setIsLoading] = useState(false);
+  // apiDone: true once the POST /api/onboarding call resolves successfully
+  const [apiDone, setApiDone] = useState(false);
 
   const updateProfile = useCallback((patch: Partial<CompanyProfile>) => {
     setProfile((prev) => ({ ...prev, ...patch }));
   }, []);
 
-  // Recalculate matches when moving to review step
   const handleNext = useCallback(() => {
     if (step === 0) {
-      // Validate basics
       if (!profile.name.trim()) {
         setError('Please enter a company name');
         return;
@@ -75,17 +58,9 @@ export function OnboardingWizard() {
         return;
       }
     }
-
     setError(null);
-
-    if (step === 1) {
-      // Moving to review — recalculate matches
-      const results = matchRegulations(profile, regulations);
-      setMatches(results);
-    }
-
     setStep((s) => Math.min(s + 1, WIZARD_STEPS.length - 1));
-  }, [step, profile, regulations]);
+  }, [step, profile]);
 
   const handleBack = useCallback(() => {
     setError(null);
@@ -93,7 +68,8 @@ export function OnboardingWizard() {
   }, []);
 
   const handleComplete = useCallback(async () => {
-    setIsCompleting(true);
+    // Switch to loading screen immediately — UX feels responsive
+    setIsLoading(true);
     setError(null);
 
     try {
@@ -106,17 +82,32 @@ export function OnboardingWizard() {
       const data = await res.json();
 
       if (!res.ok) {
-        setError(data.error || 'Something went wrong');
-        setIsCompleting(false);
+        setIsLoading(false);
+        setError(data.error || 'Something went wrong. Please try again.');
         return;
       }
 
-      router.push('/dashboard');
+      // Signal the loading screen: API is done, redirect when animation finishes
+      setApiDone(true);
     } catch {
+      setIsLoading(false);
       setError('Network error. Please try again.');
-      setIsCompleting(false);
     }
-  }, [profile, router]);
+  }, [profile]);
+
+  // Called by ComplianceLoading once min display time + API are both done
+  const handleLoadingReady = useCallback(() => {
+    router.push('/dashboard');
+  }, [router]);
+
+  // Show loading screen after submit
+  if (isLoading) {
+    return (
+      <div className="mx-auto w-full max-w-2xl">
+        <ComplianceLoading apiDone={apiDone} onReady={handleLoadingReady} />
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto w-full max-w-2xl">
@@ -132,19 +123,13 @@ export function OnboardingWizard() {
         onNext={handleNext}
         onBack={handleBack}
         onComplete={handleComplete}
-        isNextDisabled={isCompleting}
-        isCompleting={isCompleting}
+        isNextDisabled={false}
+        isCompleting={false}
       >
-        {step === 0 && (
-          <StepCompanyBasics data={profile} onChange={updateProfile} />
-        )}
-        {step === 1 && (
-          <StepActivities data={profile} onChange={updateProfile} />
-        )}
-        {step === 2 && <StepReview matches={matches} />}
-        {step === 3 && (
-          <StepConfirm companyName={profile.name} matches={matches} />
-        )}
+        {step === 0 && <StepCompanyBasics data={profile} onChange={updateProfile} />}
+        {step === 1 && <StepDataPrivacy data={profile} onChange={updateProfile} />}
+        {step === 2 && <StepDigitalPresence data={profile} onChange={updateProfile} />}
+        {step === 3 && <StepInfrastructure data={profile} onChange={updateProfile} />}
       </Wizard>
     </div>
   );
