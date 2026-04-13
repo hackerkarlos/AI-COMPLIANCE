@@ -37,6 +37,12 @@ export default async function DashboardLayout({
             >
               Assessments
             </Link>
+            <Link
+              href="/bogforingsloven"
+              className="text-sm text-[var(--color-muted-foreground)] hover:text-[var(--color-foreground)]"
+            >
+              Bogføringsloven
+            </Link>
           </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-[var(--color-muted-foreground)]">

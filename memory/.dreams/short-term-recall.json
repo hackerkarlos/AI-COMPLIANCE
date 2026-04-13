@@ -1,0 +1,4540 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-13T15:39:07.571Z",
+  "entries": {
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:22 GMT+2] You have been assigned a task in Mission Control. **[CPLY-011] Build base UI components (Button, Card, Badge, Progress, Wizard)** Priority: high Tags: ui, components, phase-2 Create minimal UI component library in src/components/ui/ using Tailwi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-011",
+        "phase-2",
+        "src/components/ui",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: I've dispatched the task to a coding agent to build the UI component library in `eucomply/src/components/ui/` using Tailwind and `class-variance-authority`. I will monitor the progress and report back once the components are implemented.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "eucomply/src/components/ui",
+        "class-variance-authority",
+        "assistant",
+        "i've",
+        "dispatched",
+        "the",
+        "task",
+        "coding"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:25 GMT+2] You have been assigned a task in Mission Control. **[CPLY-011] Build base UI components (Button, Card, Badge, Progress, Wizard)** Priority: high Tags: ui, components, phase-2 Create minimal UI component library in src/components/ui/ using Tailwi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-011",
+        "phase-2",
+        "src/components/ui",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:27 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: I've received the assignment for **[CPLY-015] Build compliance dashboard page**. I am initiating the work via Claude Code to implement the `/dashboard` route with the required compliance score circular progress, regulation status cards, urgent action items, and the enf",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "assignment",
+        "cply",
+        "compliance"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:30 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-015] Build compliance dashboard page**. I'm moving to implement the `/dashboard` route with the following requirements: 1. **Compliance Score**: Circular progress component derived from checklist percentages. 2. **Regulation Grid**: S",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply",
+        "compliance"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:33 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-015] Build compliance dashboard page**. I am proceeding with the implementation via Claude Code to deliver the `/dashboard` page with: 1. **Compliance Score**: Circular progress component. 2. **Regulation Grid**: Cards with risk badge",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply",
+        "compliance"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:33 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…a6cf session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "fri",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: The coding agent session for **[CPLY-011]** timed out and encountered an execution error (allowlist restriction) while attempting to access the project directory. It appears the subagent was unable to proceed with the implementation due to permission constraints in its",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-011",
+        "assistant",
+        "the",
+        "coding",
+        "cply",
+        "timed",
+        "out",
+        "encountered"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:36 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-015] Build compliance dashboard page**. I'm initiating the implementation via Claude Code to deliver the `/dashboard` page, including the circular compliance score, regulation status grid, urgent action items, and the enforcement dead",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply",
+        "compliance"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:39 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-015] Build compliance dashboard page**. I am proceeding with the implementation via Claude Code to deliver the `/dashboard` route with: 1. **Compliance Score**: Circular progress component based on checklist %. 2. **Regulation Grid**:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply",
+        "compliance"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:43 GMT+2] You have been assigned a task in Mission Control. **[CPLY-024] Unit tests for AI classifier + assessor** Priority: high Tags: testing, phase-5 Write vitest unit tests: (1) classify.ts — mock Claude API, test gaming startup gets GDPR+ePrivacy+Bog",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-024",
+        "phase-5",
+        "classify.ts",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-024] Unit tests for AI classifier + assessor**. I am initiating the implementation via Claude Code to write the Vitest unit tests for: 1. **`classify.ts`**: Mocking the Claude API to verify correct regulation assignment (GDPR, ePrivac",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-024",
+        "classify.ts",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:45 GMT+2] You have been assigned a task in Mission Control. **[CPLY-024] Unit tests for AI classifier + assessor** Priority: high Tags: testing, phase-5 Write vitest unit tests: (1) classify.ts — mock Claude API, test gaming startup gets GDPR+ePrivacy+Bog",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-024",
+        "phase-5",
+        "classify.ts",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: I've received the task for **[CPLY-024] Unit tests for AI classifier + assessor**. I am proceeding with the implementation via Claude Code to write the Vitest unit tests for: 1. **`classify.ts`**: Mocking the Claude API to verify correct regulation assignment logic (GD",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-024",
+        "classify.ts",
+        "assistant",
+        "i've",
+        "received",
+        "the",
+        "task",
+        "cply"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 20:46 GMT+2] You have been assigned a task in Mission Control. **[CPLY-024] Unit tests for AI classifier + assessor** Priority: high Tags: testing, phase-5 Write vitest unit tests: (1) classify.ts — mock Claude API, test gaming startup gets GDPR+ePrivacy+Bog",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-024",
+        "phase-5",
+        "classify.ts",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 21:11 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 21:14 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 21:53 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…a6cf session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "fri",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:14 GMT+2] You have been assigned a task in Mission Control. **[CPLY-016] Build regulation detail page with interactive checklist** Priority: high Tags: feature, checklist, phase-3 Implement /regulations/[id] showing: regulation overview (name, authority,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-016",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:14 GMT+2] Say hello in one sentence.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "fri",
+        "gmt",
+        "say",
+        "hello",
+        "one",
+        "sentence"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:19 GMT+2] Say hello in one sentence. Keep it very brief.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "fri",
+        "gmt",
+        "say",
+        "hello",
+        "one",
+        "sentence",
+        "keep"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:21 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:21 GMT+2] Reply with OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "fri",
+        "gmt",
+        "reply"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:23 GMT+2] You have been assigned a task in Mission Control. **[CPLY-016] Build regulation detail page with interactive checklist** Priority: high Tags: feature, checklist, phase-3 Implement /regulations/[id] showing: regulation overview (name, authority,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-016",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:28 GMT+2] You have been assigned a task in Mission Control. **[CPLY-015] Build compliance dashboard page** Priority: high Tags: feature, dashboard, phase-3 Implement /dashboard with: (1) overall compliance score as circular progress (from checklist %), (2",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-015",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "User: [Fri 2026-04-10 22:30 GMT+2] You have been assigned a task in Mission Control. **[CPLY-016] Build regulation detail page with interactive checklist** Priority: high Tags: feature, checklist, phase-3 Implement /regulations/[id] showing: regulation overview (name, authority,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-016",
+        "phase-3",
+        "user",
+        "fri",
+        "gmt",
+        "you",
+        "been",
+        "assigned"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-10.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-10.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-10.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "User: Continue where you left off. The previous model attempt failed or timed out.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "eaf6343b64a6"
+      ],
+      "recallDays": [
+        "2026-04-10",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "user",
+        "continue",
+        "where",
+        "you",
+        "left",
+        "off",
+        "the",
+        "previous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 11:00 GMT+2] You have been assigned a task in Mission Control. **[CPLY-009] Scaffold Next.js 16 project with Supabase + Tailwind** Priority: critical Create new Next.js 16 project at ~/Desktop/openclaw/eucomply using pnpm. Configure: TypeScript strict, Tailw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-009",
+        "next.js",
+        "desktop/openclaw/eucomply",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 11:30 GMT+2] You have been assigned a task in Mission Control. **[CPLY-009] Scaffold Next.js 16 project with Supabase + Tailwind** Priority: critical Create new Next.js 16 project at ~/Desktop/openclaw/eucomply using pnpm. Configure: TypeScript strict, Tailw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-009",
+        "next.js",
+        "desktop/openclaw/eucomply",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:18 GMT+2] Spawn a Claude ACP session by calling the sessions_spawn tool with { runtime: 'acp', agentId: 'claude', task: 'Print the current working directory and list the first 3 files, then exit.', mode: 'session' }. Wait for the result and report what yo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "sessions-spawn",
+        "user",
+        "sat",
+        "gmt",
+        "spawn",
+        "claude",
+        "acp",
+        "calling"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: I'll spawn the Claude ACP session first as requested, then address the Next.js project task.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "next.js",
+        "assistant",
+        "i'll",
+        "spawn",
+        "the",
+        "claude",
+        "acp",
+        "first"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:19 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…2dbc session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: The Claude ACP session completed successfully! Here's what it returned: **Current working directory:** `/home/karlos/.openclaw/workspace` **First 3 files:** 1. `AGENTS.md` 2. `BOOTSTRAP.md` 3. `claude/` --- Now, let me address the Next.js 16 project task. I'll scaffold",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "home/karlos",
+        "openclaw/workspace",
+        "agents.md",
+        "bootstrap.md",
+        "next.js",
+        "assistant",
+        "the",
+        "claude"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Perfect! I can see that a Next.js 16 project is already set up with Supabase and Tailwind. Let me check the current configuration and complete the missing parts:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "next.js",
+        "assistant",
+        "perfect",
+        "can",
+        "see",
+        "project",
+        "already",
+        "set"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: **✅ TASK COMPLETED** The Next.js 16 project is already fully scaffolded at `~/Desktop/openclaw/eucomply` with all requested configurations: **✅ Next.js 16** - Running v16.2.3 with App Router **✅ TypeScript Strict** - Enabled with additional strict flags **✅ Tailwind CS",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "router",
+        "next.js",
+        "desktop/openclaw/eucomply",
+        "v16.2.3",
+        "assistant",
+        "task",
+        "completed",
+        "the"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:19 GMT+2] Spawn a Claude ACP session by calling the sessions_spawn tool with { runtime: 'acp', agentId: 'claude', task: 'Print pwd then exit.', mode: 'session' }. Report back what you got.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "sessions-spawn",
+        "user",
+        "sat",
+        "gmt",
+        "spawn",
+        "claude",
+        "acp",
+        "calling"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:20 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…7658 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: The Claude ACP session completed successfully! Here's what happened: **Issue with original request:** `mode=\"session\"` requires `thread=true`, but thread binding is unavailable for webchat. I had to switch to `mode=\"run\"` instead. **Result:** The session successfully p",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "the",
+        "claude",
+        "acp",
+        "completed",
+        "successfully",
+        "here's",
+        "what"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:40 GMT+2] You are dispatching work for Mission Control ticket TEST-001. Call the `sessions_spawn` tool exactly once with these parameters: ```json { \"runtime\": \"acp\", \"agentId\": \"claude\", \"mode\": \"run\", \"task\": \"Print 'hello from acp' then exit.\" } ``` **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "test-001",
+        "sessions-spawn",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "dispatching",
+        "mission"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "Assistant: SPAWNED runId=772d9479-cd41-4d29-9d62-43acdb3243a5 sessionKey=agent:…d5a4",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "spawned",
+        "runid",
+        "772d9479",
+        "cd41",
+        "4d29",
+        "9d62",
+        "43acdb3243a5"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:41 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…d5a4 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: The Claude ACP session completed successfully! The task executed and printed: **hello from acp**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "the",
+        "claude",
+        "acp",
+        "completed",
+        "successfully",
+        "task",
+        "executed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:41 GMT+2] You are dispatching work for Mission Control ticket TEST-001. Call the `sessions_spawn` tool exactly once with these parameters: ```json { \"runtime\": \"acp\", \"agentId\": \"claude\", \"mode\": \"run\", \"task\": \"Print 'hello from acp' then exit.\" } ``` **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "test-001",
+        "sessions-spawn",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "dispatching",
+        "mission"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: SPAWNED runId=fdd45920-4d51-471c-80b1-dfb3889e2769 sessionKey=agent:…d894",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "spawned",
+        "runid",
+        "fdd45920",
+        "4d51",
+        "471c",
+        "80b1",
+        "dfb3889e2769"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:41 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…d894 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: The Claude ACP task completed successfully! It printed: **hello from acp**",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "the",
+        "claude",
+        "acp",
+        "task",
+        "completed",
+        "successfully",
+        "printed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:45 GMT+2] You are dispatching work for Mission Control ticket TASK-32. Call the `sessions_spawn` tool exactly once with these parameters: ```json { \"runtime\": \"acp\", \"agentId\": \"claude\", \"mode\": \"run\", \"task\": \"Working directory: /home/karlos/Desktop/open",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "sessions-spawn",
+        "home/karlos/desktop/open",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "dispatching"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: SPAWNED runId=13e1a093-4f49-400a-b551-c550dbf09af8 sessionKey=agent:…6e65",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "spawned",
+        "runid",
+        "13e1a093",
+        "4f49",
+        "400a",
+        "b551",
+        "c550dbf09af8"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:45 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…6e65 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: **TASK-32 completed successfully!** The Claude ACP session created the test file at `/home/karlos/Desktop/openclaw/eucomply/TEST_ACP.md` with the required timestamp content. File was not committed as requested.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "assistant",
+        "task",
+        "completed",
+        "successfully",
+        "the",
+        "claude",
+        "acp"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:54 GMT+2] You are dispatching work for Mission Control ticket TASK-32. Call the `sessions_spawn` tool exactly once with these parameters: ```json { \"runtime\": \"acp\", \"agentId\": \"claude\", \"mode\": \"run\", \"task\": \"Working directory: /home/karlos/Desktop/open",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "sessions-spawn",
+        "home/karlos/desktop/open",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "dispatching"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: SPAWNED runId=4de4928e-50ca-4e65-8189-c6bbcfe06c8d sessionKey=agent:…c346",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "spawned",
+        "runid",
+        "4de4928e",
+        "50ca",
+        "4e65",
+        "c6bbcfe06c8d",
+        "sessionkey"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:54 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…c346 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: **TASK-32 completed successfully!** The Claude ACP session created the test file at `/home/karlos/Desktop/openclaw/eucomply/TEST_ACP.md` with the required UTC timestamp content (2026-04-11T10:54:40Z). The smoke test passed - ACP dispatch is working correctly.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "2026-04-11t10",
+        "assistant",
+        "task",
+        "completed",
+        "successfully",
+        "the",
+        "claude"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:56 GMT+2] You are dispatching work for Mission Control ticket TASK-32. Call the `sessions_spawn` tool exactly once with these parameters: ```json { \"runtime\": \"acp\", \"agentId\": \"claude\", \"mode\": \"run\", \"task\": \"Working directory: /home/karlos/Desktop/open",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "sessions-spawn",
+        "home/karlos/desktop/open",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "dispatching"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: SPAWNED runId=6f2c349c-5ca1-418d-966e-465088493786 sessionKey=agent:…2a18",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "spawned",
+        "runid",
+        "6f2c349c",
+        "5ca1",
+        "418d",
+        "966e",
+        "sessionkey"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 12:56 GMT+2] <<<BEGIN_OPENCLAW_INTERNAL_CONTEXT>>> OpenClaw runtime context (internal): This context is runtime-generated, not user-authored. Keep internal details private. [Internal task completion event] source: subagent session_key: agent:…2a18 session_id",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "begin-openclaw-internal-context",
+        "runtime-generated",
+        "user-authored",
+        "session-key",
+        "session-id",
+        "user",
+        "sat",
+        "gmt"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: **TASK-32 completed successfully!** The Claude ACP session updated the test file at `/home/karlos/Desktop/openclaw/eucomply/TEST_ACP.md` with a fresh UTC timestamp (2026-04-11T10:56:37Z). The file already existed from a previous run, so it was updated with the current",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "task-32",
+        "2026-04-11t10",
+        "assistant",
+        "task",
+        "completed",
+        "successfully",
+        "the",
+        "claude"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-11.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-11.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-11.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "User: [Sat 2026-04-11 10:44 GMT+2] You have been assigned a task in Mission Control. **[CPLY-009] Scaffold Next.js 16 project with Supabase + Tailwind** Priority: critical Create new Next.js 16 project at ~/Desktop/openclaw/eucomply using pnpm. Configure: TypeScript strict, Tailw",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "df528490b855"
+      ],
+      "recallDays": [
+        "2026-04-11",
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "cply-009",
+        "next.js",
+        "desktop/openclaw/eucomply",
+        "user",
+        "sat",
+        "gmt",
+        "you",
+        "been"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [Sun 2026-04-12 02:17 GMT+2] [Subagent Context] You are running as a subagent (depth 1/2). Results auto-announce to your requester; do not busy-poll for status. [Subagent Task]: Implement the first stage of the EUComply development phase based on the research in `~/Desktop/",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1/2",
+        "auto-announce",
+        "busy-poll",
+        "user",
+        "sun",
+        "gmt",
+        "subagent",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: I'll help you implement the first stage of the EUComply development phase. Let me start by examining the research findings and current project structure.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "i'll",
+        "help",
+        "you",
+        "implement",
+        "the",
+        "first",
+        "stage"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Let me explore the project structure to understand the layout and find the research documentation:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "explore",
+        "the",
+        "project",
+        "structure",
+        "understand",
+        "layout"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: The research file doesn't exist yet. Let me first examine the existing project structure to understand what we're working with, then I'll create the research documentation and implement the required components.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "the",
+        "research",
+        "doesn't",
+        "exist",
+        "yet",
+        "let",
+        "first"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: Now I have a good understanding of the project structure. Let me start by creating the GDPR requirements research file, then implement the database schema and React components. First, let me create the research documentation:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "good",
+        "understanding",
+        "the",
+        "project",
+        "structure",
+        "let"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: Now let me create the SQL migration script for the database schema:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "create",
+        "the",
+        "sql",
+        "migration",
+        "script"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Now let me implement the React/Next.js assessment form component. First, I'll create some supporting types and utilities:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "react/next.js",
+        "assistant",
+        "now",
+        "let",
+        "implement",
+        "the",
+        "react",
+        "next.js"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: Now let me create the main assessment page component:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "now",
+        "let",
+        "create",
+        "the",
+        "assessment",
+        "page",
+        "component"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: Let me create a supporting component for risk level visualization and a README to document the implementation:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "let",
+        "create",
+        "supporting",
+        "component",
+        "risk",
+        "level",
+        "visualization"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-12.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-12.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-12.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: ## Implementation Complete ✅ I have successfully implemented the first stage of the EUComply development phase. Here's what was delivered: ### 1. **Database Schema** (`supabase/migrations/20240412_initial_schema.sql`) - Complete SQL migration with all required tables -",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-12T01:08:12.885Z",
+      "lastRecalledAt": "2026-04-12T01:08:12.885Z",
+      "queryHashes": [
+        "d67a1d127bbd"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "assistant",
+        "implementation",
+        "complete",
+        "successfully",
+        "implemented",
+        "the",
+        "first",
+        "stage"
+      ]
+    },
+    "memory:memory/2026-04-12.md:283:286": {
+      "key": "memory:memory/2026-04-12.md:283:286",
+      "path": "memory/2026-04-12.md",
+      "startLine": 283,
+      "endLine": 286,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 61 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:287:290": {
+      "key": "memory:memory/2026-04-12.md:287:290",
+      "path": "memory/2026-04-12.md",
+      "startLine": 287,
+      "endLine": 290,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 47 memories.; confidence: 0.77; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.77",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:291:294": {
+      "key": "memory:memory/2026-04-12.md:291:294",
+      "path": "memory/2026-04-12.md",
+      "startLine": 291,
+      "endLine": 294,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 47 memories.; confidence: 0.77; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.77",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:295:298": {
+      "key": "memory:memory/2026-04-12.md:295:298",
+      "path": "memory/2026-04-12.md",
+      "startLine": 295,
+      "endLine": 298,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 46 memories.; confidence: 0.75; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.75",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:299:302": {
+      "key": "memory:memory/2026-04-12.md:299:302",
+      "path": "memory/2026-04-12.md",
+      "startLine": 299,
+      "endLine": 302,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 33 memories.; confidence: 0.75; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T01:56:31.905Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.75",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:305:305": {
+      "key": "memory:memory/2026-04-12.md:305:305",
+      "path": "memory/2026-04-12.md",
+      "startLine": 305,
+      "endLine": 305,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T01:56:31.905Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:313:316": {
+      "key": "memory:memory/2026-04-12.md:313:316",
+      "path": "memory/2026-04-12.md",
+      "startLine": 313,
+      "endLine": 316,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 58 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T03:20:54.556Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:317:320": {
+      "key": "memory:memory/2026-04-12.md:317:320",
+      "path": "memory/2026-04-12.md",
+      "startLine": 317,
+      "endLine": 320,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 44 memories.; confidence: 0.83; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T03:20:54.556Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.83",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:321:324": {
+      "key": "memory:memory/2026-04-12.md:321:324",
+      "path": "memory/2026-04-12.md",
+      "startLine": 321,
+      "endLine": 324,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 44 memories.; confidence: 0.83; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T03:20:54.556Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.83",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:325:328": {
+      "key": "memory:memory/2026-04-12.md:325:328",
+      "path": "memory/2026-04-12.md",
+      "startLine": 325,
+      "endLine": 328,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 43 memories.; confidence: 0.81; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T03:20:54.556Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.81",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:329:332": {
+      "key": "memory:memory/2026-04-12.md:329:332",
+      "path": "memory/2026-04-12.md",
+      "startLine": 329,
+      "endLine": 332,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `assistant` kept surfacing across 33 memories.; confidence: 0.75; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T01:56:31.905Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.75",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "assistant",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:335:335": {
+      "key": "memory:memory/2026-04-12.md:335:335",
+      "path": "memory/2026-04-12.md",
+      "startLine": 335,
+      "endLine": 335,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T01:56:31.905Z",
+      "lastRecalledAt": "2026-04-12T01:56:31.905Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:331:331": {
+      "key": "memory:memory/2026-04-12.md:331:331",
+      "path": "memory/2026-04-12.md",
+      "startLine": 331,
+      "endLine": 331,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T03:20:54.556Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:323:326": {
+      "key": "memory:memory/2026-04-12.md:323:326",
+      "path": "memory/2026-04-12.md",
+      "startLine": 323,
+      "endLine": 326,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 58 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T02:50:54.645Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:327:330": {
+      "key": "memory:memory/2026-04-12.md:327:330",
+      "path": "memory/2026-04-12.md",
+      "startLine": 327,
+      "endLine": 330,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 44 memories.; confidence: 0.83; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T02:50:54.645Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.83",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:331:334": {
+      "key": "memory:memory/2026-04-12.md:331:334",
+      "path": "memory/2026-04-12.md",
+      "startLine": 331,
+      "endLine": 334,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 44 memories.; confidence: 0.83; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T02:50:54.645Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.83",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:335:338": {
+      "key": "memory:memory/2026-04-12.md:335:338",
+      "path": "memory/2026-04-12.md",
+      "startLine": 335,
+      "endLine": 338,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 43 memories.; confidence: 0.81; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T02:50:54.645Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.81",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:341:341": {
+      "key": "memory:memory/2026-04-12.md:341:341",
+      "path": "memory/2026-04-12.md",
+      "startLine": 341,
+      "endLine": 341,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T02:20:54.637Z",
+      "lastRecalledAt": "2026-04-12T02:50:54.645Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:298:301": {
+      "key": "memory:memory/2026-04-12.md:298:301",
+      "path": "memory/2026-04-12.md",
+      "startLine": 298,
+      "endLine": 301,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 59 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:20:54.556Z",
+      "lastRecalledAt": "2026-04-12T03:50:54.637Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:302:305": {
+      "key": "memory:memory/2026-04-12.md:302:305",
+      "path": "memory/2026-04-12.md",
+      "startLine": 302,
+      "endLine": 305,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 45 memories.; confidence: 0.81; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:20:54.556Z",
+      "lastRecalledAt": "2026-04-12T03:50:54.637Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.81",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:306:309": {
+      "key": "memory:memory/2026-04-12.md:306:309",
+      "path": "memory/2026-04-12.md",
+      "startLine": 306,
+      "endLine": 309,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 45 memories.; confidence: 0.81; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:20:54.556Z",
+      "lastRecalledAt": "2026-04-12T03:50:54.637Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.81",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:310:313": {
+      "key": "memory:memory/2026-04-12.md:310:313",
+      "path": "memory/2026-04-12.md",
+      "startLine": 310,
+      "endLine": 313,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 44 memories.; confidence: 0.79; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:20:54.556Z",
+      "lastRecalledAt": "2026-04-12T03:50:54.637Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.79",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:316:316": {
+      "key": "memory:memory/2026-04-12.md:316:316",
+      "path": "memory/2026-04-12.md",
+      "startLine": 316,
+      "endLine": 316,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:20:54.556Z",
+      "lastRecalledAt": "2026-04-12T03:50:54.637Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:293:296": {
+      "key": "memory:memory/2026-04-12.md:293:296",
+      "path": "memory/2026-04-12.md",
+      "startLine": 293,
+      "endLine": 296,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 60 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:50:54.637Z",
+      "lastRecalledAt": "2026-04-12T04:20:54.612Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:297:300": {
+      "key": "memory:memory/2026-04-12.md:297:300",
+      "path": "memory/2026-04-12.md",
+      "startLine": 297,
+      "endLine": 300,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 46 memories.; confidence: 0.79; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:50:54.637Z",
+      "lastRecalledAt": "2026-04-12T04:20:54.612Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.79",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:301:304": {
+      "key": "memory:memory/2026-04-12.md:301:304",
+      "path": "memory/2026-04-12.md",
+      "startLine": 301,
+      "endLine": 304,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 46 memories.; confidence: 0.79; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:50:54.637Z",
+      "lastRecalledAt": "2026-04-12T04:20:54.612Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.79",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:305:308": {
+      "key": "memory:memory/2026-04-12.md:305:308",
+      "path": "memory/2026-04-12.md",
+      "startLine": 305,
+      "endLine": 308,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 45 memories.; confidence: 0.78; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:50:54.637Z",
+      "lastRecalledAt": "2026-04-12T04:20:54.612Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.78",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:311:311": {
+      "key": "memory:memory/2026-04-12.md:311:311",
+      "path": "memory/2026-04-12.md",
+      "startLine": 311,
+      "endLine": 311,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T03:50:54.637Z",
+      "lastRecalledAt": "2026-04-12T04:20:54.612Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:288:291": {
+      "key": "memory:memory/2026-04-12.md:288:291",
+      "path": "memory/2026-04-12.md",
+      "startLine": 288,
+      "endLine": 291,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 61 memories.; confidence: 1.00; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:20:54.612Z",
+      "lastRecalledAt": "2026-04-12T04:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "1.00",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:292:295": {
+      "key": "memory:memory/2026-04-12.md:292:295",
+      "path": "memory/2026-04-12.md",
+      "startLine": 292,
+      "endLine": 295,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 47 memories.; confidence: 0.78; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:20:54.612Z",
+      "lastRecalledAt": "2026-04-12T04:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.78",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:296:299": {
+      "key": "memory:memory/2026-04-12.md:296:299",
+      "path": "memory/2026-04-12.md",
+      "startLine": 296,
+      "endLine": 299,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 47 memories.; confidence: 0.78; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:20:54.612Z",
+      "lastRecalledAt": "2026-04-12T04:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.78",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:300:303": {
+      "key": "memory:memory/2026-04-12.md:300:303",
+      "path": "memory/2026-04-12.md",
+      "startLine": 300,
+      "endLine": 303,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 46 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:20:54.612Z",
+      "lastRecalledAt": "2026-04-12T04:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.76",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:306:306": {
+      "key": "memory:memory/2026-04-12.md:306:306",
+      "path": "memory/2026-04-12.md",
+      "startLine": 306,
+      "endLine": 306,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:20:54.612Z",
+      "lastRecalledAt": "2026-04-12T04:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:301:301": {
+      "key": "memory:memory/2026-04-12.md:301:301",
+      "path": "memory/2026-04-12.md",
+      "startLine": 301,
+      "endLine": 301,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T04:50:54.639Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:263:266": {
+      "key": "memory:memory/2026-04-12.md:263:266",
+      "path": "memory/2026-04-12.md",
+      "startLine": 263,
+      "endLine": 266,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 62 memories.; confidence: 0.98; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:20:54.676Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.98",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:267:270": {
+      "key": "memory:memory/2026-04-12.md:267:270",
+      "path": "memory/2026-04-12.md",
+      "startLine": 267,
+      "endLine": 270,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 48 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:20:54.676Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.76",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:271:274": {
+      "key": "memory:memory/2026-04-12.md:271:274",
+      "path": "memory/2026-04-12.md",
+      "startLine": 271,
+      "endLine": 274,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 48 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:20:54.676Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.76",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:275:278": {
+      "key": "memory:memory/2026-04-12.md:275:278",
+      "path": "memory/2026-04-12.md",
+      "startLine": 275,
+      "endLine": 278,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `gmt` kept surfacing across 46 memories.; confidence: 0.75; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:20:54.676Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.75",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "gmt",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:281:281": {
+      "key": "memory:memory/2026-04-12.md:281:281",
+      "path": "memory/2026-04-12.md",
+      "startLine": 281,
+      "endLine": 281,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:20:54.676Z",
+      "lastRecalledAt": "2026-04-12T05:20:54.676Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:277:277": {
+      "key": "memory:memory/2026-04-12.md:277:277",
+      "path": "memory/2026-04-12.md",
+      "startLine": 277,
+      "endLine": 277,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:258:261": {
+      "key": "memory:memory/2026-04-12.md:258:261",
+      "path": "memory/2026-04-12.md",
+      "startLine": 258,
+      "endLine": 261,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 63 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T06:20:54.598Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:262:265": {
+      "key": "memory:memory/2026-04-12.md:262:265",
+      "path": "memory/2026-04-12.md",
+      "startLine": 262,
+      "endLine": 265,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `the` kept surfacing across 48 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-10.txt:2-2, memory/.dreams/session-corpus/2026-04-10.txt:5-5, memory/.dreams/session-corpus/2026-04-10.txt:7-7; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.76",
+        "2-2",
+        "5-5",
+        "7-7",
+        "reflections",
+        "theme",
+        "the",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:266:269": {
+      "key": "memory:memory/2026-04-12.md:266:269",
+      "path": "memory/2026-04-12.md",
+      "startLine": 266,
+      "endLine": 269,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `you` kept surfacing across 48 memories.; confidence: 0.76; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.76",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "you",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:272:272": {
+      "key": "memory:memory/2026-04-12.md:272:272",
+      "path": "memory/2026-04-12.md",
+      "startLine": 272,
+      "endLine": 272,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T05:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T05:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:264:264": {
+      "key": "memory:memory/2026-04-12.md:264:264",
+      "path": "memory/2026-04-12.md",
+      "startLine": 264,
+      "endLine": 264,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T06:20:54.598Z",
+      "lastRecalledAt": "2026-04-12T06:20:54.598Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:238:241": {
+      "key": "memory:memory/2026-04-12.md:238:241",
+      "path": "memory/2026-04-12.md",
+      "startLine": 238,
+      "endLine": 241,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 64 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T06:20:54.598Z",
+      "lastRecalledAt": "2026-04-12T06:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:244:244": {
+      "key": "memory:memory/2026-04-12.md:244:244",
+      "path": "memory/2026-04-12.md",
+      "startLine": 244,
+      "endLine": 244,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T06:20:54.598Z",
+      "lastRecalledAt": "2026-04-12T06:50:54.642Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:228:231": {
+      "key": "memory:memory/2026-04-12.md:228:231",
+      "path": "memory/2026-04-12.md",
+      "startLine": 228,
+      "endLine": 231,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 65 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T06:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T07:20:54.628Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:234:234": {
+      "key": "memory:memory/2026-04-12.md:234:234",
+      "path": "memory/2026-04-12.md",
+      "startLine": 234,
+      "endLine": 234,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T06:50:54.642Z",
+      "lastRecalledAt": "2026-04-12T07:20:54.628Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:218:221": {
+      "key": "memory:memory/2026-04-12.md:218:221",
+      "path": "memory/2026-04-12.md",
+      "startLine": 218,
+      "endLine": 221,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 66 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T07:20:54.628Z",
+      "lastRecalledAt": "2026-04-12T07:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:224:224": {
+      "key": "memory:memory/2026-04-12.md:224:224",
+      "path": "memory/2026-04-12.md",
+      "startLine": 224,
+      "endLine": 224,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T07:20:54.628Z",
+      "lastRecalledAt": "2026-04-12T07:50:54.639Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:208:211": {
+      "key": "memory:memory/2026-04-12.md:208:211",
+      "path": "memory/2026-04-12.md",
+      "startLine": 208,
+      "endLine": 211,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 67 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T07:50:54.639Z",
+      "lastRecalledAt": "2026-04-12T08:20:54.690Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:214:214": {
+      "key": "memory:memory/2026-04-12.md:214:214",
+      "path": "memory/2026-04-12.md",
+      "startLine": 214,
+      "endLine": 214,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T07:50:54.639Z",
+      "lastRecalledAt": "2026-04-12T08:20:54.690Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:203:206": {
+      "key": "memory:memory/2026-04-12.md:203:206",
+      "path": "memory/2026-04-12.md",
+      "startLine": 203,
+      "endLine": 206,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 68 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T08:20:54.690Z",
+      "lastRecalledAt": "2026-04-12T08:50:54.636Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:209:209": {
+      "key": "memory:memory/2026-04-12.md:209:209",
+      "path": "memory/2026-04-12.md",
+      "startLine": 209,
+      "endLine": 209,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T08:20:54.690Z",
+      "lastRecalledAt": "2026-04-12T08:50:54.636Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    },
+    "memory:memory/2026-04-12.md:198:201": {
+      "key": "memory:memory/2026-04-12.md:198:201",
+      "path": "memory/2026-04-12.md",
+      "startLine": 198,
+      "endLine": 201,
+      "source": "memory",
+      "snippet": "Reflections: Theme: `user` kept surfacing across 69 memories.; confidence: 0.95; evidence: memory/.dreams/session-corpus/2026-04-10.txt:1-1, memory/.dreams/session-corpus/2026-04-10.txt:3-3, memory/.dreams/session-corpus/2026-04-10.txt:4-4; note: reflection",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T08:50:54.636Z",
+      "lastRecalledAt": "2026-04-13T15:37:07.402Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12",
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "0.95",
+        "1-1",
+        "3-3",
+        "4-4",
+        "reflections",
+        "theme",
+        "user",
+        "kept"
+      ]
+    },
+    "memory:memory/2026-04-12.md:204:204": {
+      "key": "memory:memory/2026-04-12.md:204:204",
+      "path": "memory/2026-04-12.md",
+      "startLine": 204,
+      "endLine": 204,
+      "source": "memory",
+      "snippet": "Possible Lasting Truths: No strong candidate truths surfaced.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-12T08:50:54.636Z",
+      "lastRecalledAt": "2026-04-13T15:37:07.402Z",
+      "queryHashes": [
+        "01679c334ef2"
+      ],
+      "recallDays": [
+        "2026-04-12",
+        "2026-04-13"
+      ],
+      "conceptTags": [
+        "possible",
+        "lasting",
+        "truths",
+        "strong",
+        "candidate",
+        "surfaced"
+      ]
+    }
+  }
+}

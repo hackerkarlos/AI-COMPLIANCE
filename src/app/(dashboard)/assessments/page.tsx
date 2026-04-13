@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import { createClient } from '@/lib/supabase/server';
-import { Card, Button } from '@/components/ui';
+import { Card } from '@/components/ui';
 import { AssessmentCard } from '@/components/assessment';
 
 interface AssessmentRow {
@@ -63,9 +63,12 @@ export default async function AssessmentsPage() {
             AI-powered compliance assessments for {company.name}. Review past results and trigger new evaluations.
           </p>
         </div>
-        <Button variant="primary" size="md">
+        <Link
+          href="/assessments/new"
+          className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+        >
           + New Assessment
-        </Button>
+        </Link>
       </div>
 
       {/* Summary Cards */}
@@ -112,16 +115,21 @@ export default async function AssessmentsPage() {
             regulatory standing.
           </p>
           <div className="mt-4">
-            <Button variant="primary" size="md">
-              + Start First Assessment
-            </Button>
+            <Link
+              href="/assessments/new"
+              className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+            >
+              + First Assessment
+            </Link>
           </div>
         </Card>
       ) : (
         <div className="space-y-4">
           <h2 className="text-lg font-semibold">Assessment History</h2>
           {assessmentList.map((assessment) => (
-            <AssessmentCard key={assessment.id} assessment={assessment} />
+            <Link key={assessment.id} href={`/assessments/${assessment.id}` as string} className="block hover:opacity-90 transition-opacity">
+              <AssessmentCard assessment={assessment} />
+            </Link>
           ))}
         </div>
       )}

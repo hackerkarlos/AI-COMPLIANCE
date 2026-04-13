@@ -250,6 +250,16 @@ export default async function RegulationDetailPage({
             </div>
             <p className="text-sm text-[var(--color-muted-foreground)]">{reg.name}</p>
           </div>
+
+          {/* Run AI risk assessment — available for GDPR */}
+          {reg.slug === 'gdpr' && (
+            <Link
+              href="/assessments/new"
+              className="flex-shrink-0 rounded-md bg-[var(--color-accent)] px-4 py-2 text-sm font-medium text-white hover:opacity-90 transition-opacity"
+            >
+              Run GDPR Risk Assessment
+            </Link>
+          )}
         </div>
 
         {/* Progress */}
