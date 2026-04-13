@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useCallback } from 'react';
+import Link from 'next/link';
 import { Card, CardHeader, CardTitle, CardContent, Badge, Progress } from '@/components/ui';
 import { ChecklistItem } from './ChecklistItem';
 import type { ChecklistStatus } from './StatusToggle';
@@ -106,17 +107,14 @@ export function RegulationCard({ regulation, items, statusMap, companyId }: Regu
 
   return (
     <Card>
-      <button
-        type="button"
-        className="w-full text-left"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
+      <Link href={`/regulations/${regulation.slug}`} className="block">
         <CardHeader>
           <div className="flex items-start justify-between">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <CardTitle className="text-base">{regulation.short_name}</CardTitle>
                 <Badge variant={regulation.risk_level}>{regulation.risk_level}</Badge>
+                <span className="text-xs text-[var(--color-accent)] font-medium">View detail →</span>
               </div>
               <p className="text-xs text-[var(--color-muted-foreground)]">{regulation.name}</p>
               {regulation.enforcement_date && (
@@ -145,7 +143,7 @@ export function RegulationCard({ regulation, items, statusMap, companyId }: Regu
             <Progress value={percentage} />
           </div>
         </CardHeader>
-      </button>
+      </Link>
 
       {isExpanded && (
         <CardContent className="pt-0">
