@@ -325,7 +325,7 @@ export default async function DashboardPage() {
                   </CardContent>
                   <div className="border-t border-[var(--color-border)] px-6 py-3">
                     <Link
-                      href={`/regulations`}
+                      href={`/regulations/${reg.slug}`}
                       className="text-sm font-medium text-[var(--color-accent)] hover:underline"
                     >
                       View Checklist →

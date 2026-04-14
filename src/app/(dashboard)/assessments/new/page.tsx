@@ -10,7 +10,7 @@ const ASSESSMENT_TYPE_MAP: Record<string, { slug: string; label: string }> = {
 
 const LOADING_STEPS = [
   'Analysing your company profile...',
-  'Evaluating GDPR compliance gaps...',
+  'Evaluating compliance gaps...',
   'Building risk matrix...',
   'Generating prioritised recommendations...',
   'Finalising report...',

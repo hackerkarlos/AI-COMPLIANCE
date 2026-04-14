@@ -102,9 +102,12 @@ function toImpact(priority: string): number {
   return map[priority] ?? 2;
 }
 
-/** Group checklist assessments by GDPR category prefix. */
-function inferCategory(code: string): string {
-  const categoryMap: Record<string, string> = {
+/**
+ * Per-regulation category maps, keyed by checklist item code.
+ * Add new regulation maps here as they are introduced.
+ */
+const REGULATION_CATEGORY_MAPS: Record<string, Record<string, string>> = {
+  GDPR: {
     'GDPR-01': 'Lawful Basis',
     'GDPR-13': 'Lawful Basis',
     'GDPR-02': 'Documentation',
@@ -125,8 +128,36 @@ function inferCategory(code: string): string {
     'GDPR-18': 'Governance',
     'GDPR-19': 'International Transfers',
     'GDPR-20': 'Incident Response',
-  };
-  return categoryMap[code] ?? 'General';
+  },
+  NIS2: {
+    'NIS2-01': 'Governance',
+    'NIS2-02': 'Governance',
+    'NIS2-03': 'Risk Management',
+    'NIS2-04': 'Risk Management',
+    'NIS2-05': 'Incident Handling',
+    'NIS2-06': 'Incident Handling',
+    'NIS2-07': 'Business Continuity',
+    'NIS2-08': 'Supply Chain',
+    'NIS2-09': 'Supply Chain',
+    'NIS2-10': 'Security Measures',
+  },
+  AIACT: {
+    'AIACT-01': 'Risk Classification',
+    'AIACT-02': 'Risk Classification',
+    'AIACT-03': 'Data Governance',
+    'AIACT-04': 'Technical Documentation',
+    'AIACT-05': 'Human Oversight',
+    'AIACT-06': 'Transparency',
+    'AIACT-07': 'Accuracy & Robustness',
+  },
+};
+
+/** Infer a human-readable category from a checklist item code.
+ *  Works for any regulation — falls back to the regulation prefix for unmapped codes. */
+function inferCategory(code: string): string {
+  const prefix = code.split('-')[0] ?? '';
+  const map = REGULATION_CATEGORY_MAPS[prefix];
+  return map?.[code] ?? (prefix || 'General');
 }
 
 function scoreColor(score: number): string {
@@ -262,7 +293,7 @@ export default async function AssessmentReportPage({
         }
         @page {
           margin: 1.5cm;
-          @top-right { content: "EUComply — GDPR Risk Report"; font-size: 9pt; }
+          @top-right { content: "EUComply — Compliance Risk Report"; font-size: 9pt; }
           @bottom-right { content: counter(page) " / " counter(pages); font-size: 9pt; }
         }
       `}</style>
@@ -607,15 +638,15 @@ export default async function AssessmentReportPage({
           <div>
             <p className="text-sm font-medium">What&apos;s next?</p>
             <p className="text-xs text-[var(--color-muted-foreground)]">
-              Address high-priority gaps in the GDPR compliance checklist.
+              Address high-priority gaps in the {analysis.regulation_name} compliance checklist.
             </p>
           </div>
           <div className="flex gap-3">
             <Link
-              href="/regulations/gdpr"
+              href={`/regulations/${analysis.regulation_slug}`}
               className="rounded-md border border-[var(--color-border)] bg-[var(--color-card)] px-4 py-2 text-sm font-medium hover:bg-[var(--color-muted)] transition-colors no-href-print"
             >
-              Open GDPR Checklist
+              Open {analysis.regulation_name} Checklist
             </Link>
             <Link
               href="/assessments/new"

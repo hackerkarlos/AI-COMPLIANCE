@@ -97,6 +97,14 @@ export async function runAssessment(
 
   const assessmentType = count === 0 ? "initial" : "periodic";
 
+  // Mark all previous assessments for this company+regulation as no longer latest
+  await supabase
+    .from("assessments")
+    .update({ is_latest: false })
+    .eq("company_id", companyId)
+    .eq("is_latest", true)
+    .contains("ai_analysis", { regulation_id: regulationId });
+
   // Insert assessment record
   // ai_analysis stores the full result plus regulation metadata for traceability
   const { data: assessment, error: assessError } = await supabase
