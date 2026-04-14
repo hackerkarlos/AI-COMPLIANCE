@@ -3,6 +3,7 @@ import { createClient } from '@/lib/supabase/server';
 import { matchRegulations, type CompanyProfile } from '@/lib/regulations/matching';
 import type { Regulation } from '@/types/assessment';
 import { runAssessment } from '@/lib/ai/assess';
+import { checkRateLimit } from '@/lib/rate-limit';
 
 export async function POST(request: Request) {
   try {
@@ -13,6 +14,10 @@ export async function POST(request: Request) {
 
     if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    if (!checkRateLimit(user.id).allowed) {
+      return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
     }
 
     const body = (await request.json()) as CompanyProfile;

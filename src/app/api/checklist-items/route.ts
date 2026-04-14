@@ -6,7 +6,7 @@ const ChecklistUpdateSchema = z.object({
   checklistItemId: z.string().uuid(),
   status: z.enum(['not_started', 'in_progress', 'completed', 'not_applicable']),
   notes: z.string().nullable().optional(),
-  evidenceUrl: z.string().nullable().optional(),
+  evidenceUrl: z.string().url().nullable().optional(),
 });
 
 export async function POST(request: Request) {

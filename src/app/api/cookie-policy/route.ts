@@ -3,6 +3,7 @@ import type { Tool } from '@anthropic-ai/sdk/resources/messages';
 import { createClient } from '@/lib/supabase/server';
 import { getAnthropicClient, MODELS, DEFAULT_TEMPERATURE } from '@/lib/ai/client';
 import { eprivacyPrompt } from '@/lib/ai/prompts/eprivacy';
+import { checkRateLimit } from '@/lib/rate-limit';
 
 // ─── Tool schema ─────────────────────────────────────────────
 
@@ -126,6 +127,10 @@ export async function POST() {
 
     if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    if (!checkRateLimit(user.id).allowed) {
+      return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
     }
 
     const { data: company } = await supabase
