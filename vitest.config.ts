@@ -11,7 +11,7 @@ export default defineConfig({
       reporter: ["text", "json", "html"],
       include: ["src/lib/ai/*.ts"],
       exclude: ["src/lib/ai/index.ts"],
-      threshold: {
+      thresholds: {
         lines: 60,
         branches: 50,
         functions: 60,

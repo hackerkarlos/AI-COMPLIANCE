@@ -7,7 +7,7 @@
  * - Exported constants are correct
  */
 
-import { describe, it, expect, afterEach, beforeEach } from "vitest";
+import { describe, it, expect, afterEach, beforeEach, vi } from "vitest";
 
 describe("client constants", () => {
   it("should export correct MODELS", async () => {

@@ -1,0 +1,37 @@
+{
+  "gitSource": {
+    "type": "github",
+    "repo": "hackerkarlos/AI-COMPLIANCE"
+  },
+  "name": "eucomply",
+  "regions": ["fra1"],
+  "environments": {
+    "production": {
+      "name": "eucomply",
+      "url": "eucomply.vercel.app",
+      "domains": [
+        "eucomply.com",
+        "www.eucomply.com"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "staging": {
+      "name": "eucomply-staging",
+      "url": "eucomply-staging.vercel.app",
+      "domains": [
+        "staging.eucomply.com"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "development": {
+      "name": "eucomply-dev",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}

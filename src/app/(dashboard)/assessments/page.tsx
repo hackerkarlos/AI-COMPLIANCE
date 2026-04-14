@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
+import type { Route } from 'next';
 import { createClient } from '@/lib/supabase/server';
 import { Card } from '@/components/ui';
 import { AssessmentCard } from '@/components/assessment';
@@ -127,7 +128,7 @@ export default async function AssessmentsPage() {
         <div className="space-y-4">
           <h2 className="text-lg font-semibold">Assessment History</h2>
           {assessmentList.map((assessment) => (
-            <Link key={assessment.id} href={`/assessments/${assessment.id}` as string} className="block hover:opacity-90 transition-opacity">
+            <Link key={assessment.id} href={`/assessments/${assessment.id}` as Route} className="block hover:opacity-90 transition-opacity">
               <AssessmentCard assessment={assessment} />
             </Link>
           ))}

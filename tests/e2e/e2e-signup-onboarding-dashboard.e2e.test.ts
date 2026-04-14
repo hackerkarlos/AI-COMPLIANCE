@@ -287,7 +287,7 @@ test.describe('E2E: Signup → Onboarding → Dashboard → GDPR Compliance', ()
     const progressText = await page.locator('text=/\\d+\\/\\d+ items \\(\\d+%\\)/').first().textContent();
     expect(progressText).toBeTruthy();
     const pctMatch = progressText?.match(/(\d+)%/);
-    if (pctMatch) {
+    if (pctMatch && pctMatch[1]) {
       const percentage = parseInt(pctMatch[1], 10);
       expect(percentage).toBeGreaterThan(0);
       console.log(`✓ Compliance percentage > 0: ${percentage}%`);

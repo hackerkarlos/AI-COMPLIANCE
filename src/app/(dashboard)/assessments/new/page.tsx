@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import type { Route } from 'next';
 
 const ASSESSMENT_TYPE_MAP: Record<string, { slug: string; label: string }> = {
   gdpr_risk: { slug: 'gdpr', label: 'GDPR Risk Assessment' },
@@ -57,7 +58,7 @@ function NewAssessmentContent() {
         return res.json() as Promise<{ assessmentId: string }>;
       })
       .then(({ assessmentId }) => {
-        router.push(`/assessments/${assessmentId}` as string);
+        router.push(`/assessments/${assessmentId}` as Route);
       })
       .catch((err: Error) => {
         setErrorMessage(err.message ?? 'Assessment failed. Please try again.');

@@ -106,3 +106,46 @@ Built with Tailwind CSS 4 + class-variance-authority. All components use `cn()` 
 | `Wizard` | — | Multi-step shell with step indicator + back/next/complete navigation |
 
 Barrel export: `import { Button, Card, Badge, ... } from '@/components/ui'`
+
+## Vercel Deployment (CPLY-026)
+
+### Project Config
+- **Config file**: `vercel.json` — regions: `fra1` (EU), security headers, GitHub CI enabled
+- **Build**: `pnpm build` (with env pollution scrub via package.json scripts)
+- **Dev**: `pnpm dev -- --port $PORT`
+
+### Environment Variables (Vercel)
+
+| Variable | Target | Secret | Description |
+|----------|--------|--------|-------------|
+| `NEXT_PUBLIC_SUPABASE_URL` | Production/Preview/Dev | No | Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Production/Preview/Dev | No | Supabase anon key (client-safe) |
+| `SUPABASE_SERVICE_ROLE_KEY` | Production only | Yes | Admin access — bypasses RLS |
+| `ANTHROPIC_API_KEY` | Production only | Yes | Claude API key (server-side only) |
+
+### Supabase Clients
+
+| File | Use Case | Auth |
+|------|----------|------|
+| `lib/supabase/browser.ts` | Client components | Anon key |
+| `lib/supabase/server.ts` | Server components, Route Handlers | Anon key + cookies |
+| `lib/supabase/admin.ts` | Trusted server ops (service role) | Service role key |
+
+### Security Headers
+All routes serve:
+- `Strict-Transport-Security: max-age=31536000; includeSubDomains`
+- `X-Content-Type-Options: nosniff`
+- `X-Frame-Options: DENY`
+- `X-XSS-Protection: 1; mode=block`
+- `Referrer-Policy: strict-origin-when-cross-origin`
+
+### RLS Verification
+Run `supabase/verify-rls.sql` in Supabase SQL Editor post-deploy to confirm:
+- All 6 business tables have RLS enabled
+- Policies match expected access patterns
+- No orphaned tables without RLS
+
+### Staging Domain
+- `staging.eucomply.com` → CNAME to `cname.vercel-dns.com`
+- Linked to staging branch in Vercel project settings
+- Separate env vars for staging Supabase project
