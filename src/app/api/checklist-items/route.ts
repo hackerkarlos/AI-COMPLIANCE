@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
+import { verifySameOrigin } from '@/lib/security/csrf';
 import { z } from 'zod';
 
 const ChecklistUpdateSchema = z.object({
@@ -11,6 +12,9 @@ const ChecklistUpdateSchema = z.object({
 
 export async function POST(request: Request) {
   try {
+    const csrfError = verifySameOrigin(request);
+    if (csrfError) return csrfError;
+
     const supabase = await createClient();
     const {
       data: { user },
@@ -64,7 +68,7 @@ export async function POST(request: Request) {
     if (error) {
       console.error('Failed to update checklist item:', error);
       return NextResponse.json(
-        { error: 'Failed to update checklist item', details: error.message },
+        { error: 'Failed to update checklist item' },
         { status: 500 }
       );
     }

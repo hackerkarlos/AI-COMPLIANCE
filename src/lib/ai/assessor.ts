@@ -7,6 +7,7 @@ import {
 } from "./client";
 import type { Company, ChecklistItem, Regulation } from "@/types/assessment";
 import { getPromptForRegulation } from "./prompts";
+import { escapeForPrompt, PROMPT_INJECTION_GUARD } from "./prompt-safety";
 
 // ─── Tool definition for structured output ───────────────────
 
@@ -191,6 +192,8 @@ export async function assessCompliance(
 
 ${regulationPrompt}
 
+${PROMPT_INJECTION_GUARD}
+
 Your assessment must be:
 - Specific and actionable — avoid generic advice
 - Practical for SMBs — consider limited resources and budgets
@@ -208,22 +211,25 @@ Your assessment must be:
     messages: [
       {
         role: "user",
-        content: `Assess this company's compliance with ${regulation.name} (${regulation.slug}).
+        content: `Assess this company's compliance with ${escapeForPrompt(regulation.name)} (${escapeForPrompt(regulation.slug)}).
 
---- COMPANY PROFILE ---
+<company_profile>
 ${companyDescription}
+</company_profile>
 
---- REGULATION ---
-Name: ${regulation.name}
-Type: ${regulation.regulation_type}
-Authority: ${regulation.authority ?? "N/A"}
-Risk level: ${regulation.risk_level}
-Max fine: ${regulation.max_fine_description ?? "N/A"}
-Effective: ${regulation.effective_date ?? "N/A"}
-Enforcement: ${regulation.enforcement_date ?? "N/A"}
+<regulation>
+Name: ${escapeForPrompt(regulation.name)}
+Type: ${escapeForPrompt(regulation.regulation_type)}
+Authority: ${escapeForPrompt(regulation.authority)}
+Risk level: ${escapeForPrompt(regulation.risk_level)}
+Max fine: ${escapeForPrompt(regulation.max_fine_description)}
+Effective: ${escapeForPrompt(regulation.effective_date)}
+Enforcement: ${escapeForPrompt(regulation.enforcement_date)}
+</regulation>
 
---- CHECKLIST ITEMS TO ASSESS ---
+<checklist_items>
 ${checklistDescription}
+</checklist_items>
 
 Assess the company against every checklist item. Be specific about findings and recommendations.`,
       },
@@ -243,15 +249,16 @@ Assess the company against every checklist item. Be specific about findings and 
 // ─── Helpers ─────────────────────────────────────────────────
 
 function formatCompanyForAssessment(company: Company): string {
+  const e = escapeForPrompt;
   const lines: (string | null)[] = [
-    `Company: ${company.name}`,
-    company.cvr_number ? `CVR: ${company.cvr_number}` : null,
-    `Sector: ${company.industry_sector ?? "Not specified"}`,
-    `Size: ${company.company_size ?? "Not specified"} (${company.employee_count ?? "?"} employees)`,
+    `Company: ${e(company.name)}`,
+    company.cvr_number ? `CVR: ${e(company.cvr_number)}` : null,
+    `Sector: ${e(company.industry_sector ?? "Not specified")}`,
+    `Size: ${e(company.company_size ?? "Not specified")} (${e(company.employee_count ?? "?")} employees)`,
     company.annual_turnover_eur
       ? `Annual turnover: €${company.annual_turnover_eur.toLocaleString()}`
       : null,
-    `Location: ${company.city ?? ""} ${company.postal_code ?? ""}, ${company.country}`.trim(),
+    `Location: ${e(company.city ?? "")} ${e(company.postal_code ?? "")}, ${e(company.country)}`.trim(),
     "",
     "Applicability flags:",
     `  Processes personal data: ${company.processes_personal_data}`,
@@ -268,10 +275,11 @@ function formatCompanyForAssessment(company: Company): string {
 }
 
 function formatChecklist(items: ChecklistItem[]): string {
+  const e = escapeForPrompt;
   return items
     .map(
       (item, i) =>
-        `${i + 1}. [${item.code}] ${item.title} (priority: ${item.priority}, effort: ${item.effort_level})${item.description ? `\n   ${item.description}` : ""}`
+        `${i + 1}. [${e(item.code)}] ${e(item.title)} (priority: ${e(item.priority)}, effort: ${e(item.effort_level)})${item.description ? `\n   ${e(item.description)}` : ""}`
     )
     .join("\n\n");
 }

@@ -11,9 +11,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { runAssessment } from '@/lib/ai/assess';
+import { verifySameOrigin } from '@/lib/security/csrf';
 
 export async function POST(request: NextRequest) {
   try {
+    const csrfError = verifySameOrigin(request);
+    if (csrfError) return csrfError;
+
     const supabase = await createClient();
     const {
       data: { user },
@@ -72,6 +76,6 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     const message = error instanceof Error ? error.message : 'Unknown error';
     console.error('[POST /api/assessments] Error:', message);
-    return NextResponse.json({ error: 'Assessment failed', detail: message }, { status: 500 });
+    return NextResponse.json({ error: 'Assessment failed' }, { status: 500 });
   }
 }
