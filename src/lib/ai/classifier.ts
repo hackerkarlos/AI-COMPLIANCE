@@ -6,6 +6,7 @@ import {
   MAX_TOKENS_CLASSIFY,
 } from "./client";
 import type { Company } from "@/types/assessment";
+import { escapeForPrompt, PROMPT_INJECTION_GUARD } from "./prompt-safety";
 
 // ─── Tool definition for structured output ───────────────────
 
@@ -105,7 +106,9 @@ Danish context:
 - CFCS (Center for Cybersikkerhed) assists with NIS2 implementation
 - Most Danish SMBs (under 250 employees) still fall under GDPR, ePrivacy, Bogføringsloven at minimum
 
-Be precise about edge cases. A 3-person startup still needs GDPR compliance if they handle personal data. Bogføringsloven applies to ALL companies. Consider the company's sector, size, and activities carefully.`;
+Be precise about edge cases. A 3-person startup still needs GDPR compliance if they handle personal data. Bogføringsloven applies to ALL companies. Consider the company's sector, size, and activities carefully.
+
+${PROMPT_INJECTION_GUARD}`;
 }
 
 // ─── Main classifier function ────────────────────────────────
@@ -127,7 +130,7 @@ export async function classifyRegulations(
     messages: [
       {
         role: "user",
-        content: `Classify which regulations apply to this Danish company:\n\n${companyDescription}\n\nEvaluate all 10 regulations and provide your classification.`,
+        content: `Classify which regulations apply to this Danish company:\n\n<company_profile>\n${companyDescription}\n</company_profile>\n\nEvaluate all 10 regulations and provide your classification.`,
       },
     ],
   });
@@ -147,17 +150,18 @@ export async function classifyRegulations(
 // ─── Helpers ─────────────────────────────────────────────────
 
 function formatCompanyProfile(company: Company): string {
+  const e = escapeForPrompt;
   const lines: (string | null)[] = [
-    `Company name: ${company.name}`,
-    company.cvr_number ? `CVR: ${company.cvr_number}` : null,
-    `Industry sector: ${company.industry_sector ?? "Not specified"}`,
-    `Size: ${company.company_size ?? "Not specified"}`,
-    `Employees: ${company.employee_count ?? "Not specified"}`,
+    `Company name: ${e(company.name)}`,
+    company.cvr_number ? `CVR: ${e(company.cvr_number)}` : null,
+    `Industry sector: ${e(company.industry_sector ?? "Not specified")}`,
+    `Size: ${e(company.company_size ?? "Not specified")}`,
+    `Employees: ${e(company.employee_count ?? "Not specified")}`,
     company.annual_turnover_eur
       ? `Annual turnover: €${company.annual_turnover_eur.toLocaleString()}`
       : null,
-    `Country: ${company.country}`,
-    company.city ? `City: ${company.city}` : null,
+    `Country: ${e(company.country)}`,
+    company.city ? `City: ${e(company.city)}` : null,
     "",
     "--- Applicability flags ---",
     `Processes personal data: ${company.processes_personal_data}`,

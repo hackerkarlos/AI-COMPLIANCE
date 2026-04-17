@@ -1,12 +1,19 @@
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
+import type { User } from '@supabase/supabase-js';
+
+export interface SessionResult {
+  response: NextResponse;
+  user: User | null;
+}
 
 /**
  * Refreshes the Supabase session on every request and forwards the new
  * cookies to the browser. Must run in middleware so Server Components can
- * read a fresh session.
+ * read a fresh session. Returns the refreshed user so callers can gate
+ * protected routes without a second round-trip.
  */
-export async function updateSession(request: NextRequest) {
+export async function updateSession(request: NextRequest): Promise<SessionResult> {
   let response = NextResponse.next({ request });
 
   const supabase = createServerClient(
@@ -30,8 +37,9 @@ export async function updateSession(request: NextRequest) {
     },
   );
 
-  // Touching getUser() forces a session refresh if the access token expired.
-  await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-  return response;
+  return { response, user };
 }

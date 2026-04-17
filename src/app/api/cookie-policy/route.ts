@@ -3,6 +3,7 @@ import type { Tool } from '@anthropic-ai/sdk/resources/messages';
 import { createClient } from '@/lib/supabase/server';
 import { getAnthropicClient, MODELS, DEFAULT_TEMPERATURE } from '@/lib/ai/client';
 import { eprivacyPrompt } from '@/lib/ai/prompts/eprivacy';
+import { escapeForPrompt, PROMPT_INJECTION_GUARD } from '@/lib/ai/prompt-safety';
 import { verifySameOrigin } from '@/lib/security/csrf';
 
 // ─── Tool schema ─────────────────────────────────────────────
@@ -150,6 +151,8 @@ export async function POST(request: Request) {
 
 ${eprivacyPrompt}
 
+${PROMPT_INJECTION_GUARD}
+
 Your cookie policy template must:
 - Be written in clear, plain English (company will translate to Danish)
 - Follow Danish Datatilsynet guidance and cookie-erklæringen.dk standards
@@ -158,8 +161,8 @@ Your cookie policy template must:
 - Not fabricate specific cookie names unless they are universally standard (e.g. _ga for Google Analytics)`;
 
     const companyContext = [
-      `Company name: ${company.name}`,
-      `Industry: ${company.industry_sector ?? 'Not specified'}`,
+      `Company name: ${escapeForPrompt(company.name)}`,
+      `Industry: ${escapeForPrompt(company.industry_sector ?? 'Not specified')}`,
       `Operates online / has website: ${company.operates_online}`,
       `Processes personal data: ${company.processes_personal_data}`,
       `Uses AI systems: ${company.uses_ai_systems}`,
@@ -178,7 +181,9 @@ Your cookie policy template must:
           role: 'user',
           content: `Generate a cookie policy template for this Danish company:
 
+<company_profile>
 ${companyContext}
+</company_profile>
 
 Tailor the cookie categories to what this type of company realistically uses. For an online business, include analytics and potentially marketing cookies. For a company not operating online, keep it minimal. Always include strictly necessary cookies.`,
         },
