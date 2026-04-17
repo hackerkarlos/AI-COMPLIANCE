@@ -13,20 +13,14 @@ if [ -z "$VERCEL_PROJECT_ID" ]; then
     echo "   Run: vercel link --project eucomply"
 fi
 
-# Check if .env.production has real values
-if grep -q "production-anon-key" .env.production 2>/dev/null; then
-    echo "❌ .env.production contains placeholder values"
-    echo "   Update with real Supabase keys before deploying"
-    echo ""
-    echo "Required environment variables:"
-    echo "  NEXT_PUBLIC_SUPABASE_URL=https://pcjswfyfhawdgveleizc.supabase.co"
-    echo "  NEXT_PUBLIC_SUPABASE_ANON_KEY=<get-from-supabase-dashboard>"
-    echo "  SUPABASE_SERVICE_ROLE_KEY=<get-from-supabase-dashboard>"
-    echo "  ANTHROPIC_API_KEY=<your-anthropic-api-key>"
-    exit 1
-fi
-
-echo "✅ Environment variables verified"
+echo "Production secrets are NOT committed. Set them directly in the Vercel"
+echo "dashboard (Project → Settings → Environment Variables)."
+echo ""
+echo "Required environment variables:"
+echo "  NEXT_PUBLIC_SUPABASE_URL=<your-supabase-project-url>"
+echo "  NEXT_PUBLIC_SUPABASE_ANON_KEY=<from-supabase-dashboard>"
+echo "  SUPABASE_SERVICE_ROLE_KEY=<from-supabase-dashboard, mark Sensitive>"
+echo "  ANTHROPIC_API_KEY=<your-anthropic-api-key, mark Sensitive>"
 echo ""
 echo "Next steps:"
 echo "1. Run: vercel link --project eucomply"

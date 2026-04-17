@@ -3,9 +3,13 @@ import { createClient } from '@/lib/supabase/server';
 import { matchRegulations, type CompanyProfile } from '@/lib/regulations/matching';
 import type { Regulation } from '@/types/assessment';
 import { runAssessment } from '@/lib/ai/assess';
+import { verifySameOrigin } from '@/lib/security/csrf';
 
 export async function POST(request: Request) {
   try {
+    const csrfError = verifySameOrigin(request);
+    if (csrfError) return csrfError;
+
     const supabase = await createClient();
     const {
       data: { user },

@@ -3,6 +3,7 @@ import type { Tool } from '@anthropic-ai/sdk/resources/messages';
 import { createClient } from '@/lib/supabase/server';
 import { getAnthropicClient, MODELS, DEFAULT_TEMPERATURE } from '@/lib/ai/client';
 import { eprivacyPrompt } from '@/lib/ai/prompts/eprivacy';
+import { verifySameOrigin } from '@/lib/security/csrf';
 
 // ─── Tool schema ─────────────────────────────────────────────
 
@@ -117,8 +118,11 @@ export interface CookiePolicyTemplate {
 
 // ─── Route handler ────────────────────────────────────────────
 
-export async function POST() {
+export async function POST(request: Request) {
   try {
+    const csrfError = verifySameOrigin(request);
+    if (csrfError) return csrfError;
+
     const supabase = await createClient();
     const {
       data: { user },

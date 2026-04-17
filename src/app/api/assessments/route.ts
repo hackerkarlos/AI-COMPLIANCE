@@ -11,9 +11,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { runAssessment } from '@/lib/ai/assess';
+import { verifySameOrigin } from '@/lib/security/csrf';
 
 export async function POST(request: NextRequest) {
   try {
+    const csrfError = verifySameOrigin(request);
+    if (csrfError) return csrfError;
+
     const supabase = await createClient();
     const {
       data: { user },
