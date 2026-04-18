@@ -2,6 +2,8 @@ import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { RegulationCard } from '@/components/regulations';
 import type { ChecklistStatus } from '@/components/regulations';
+import { Skeleton } from '@/components/ui/skeleton';
+import { Card, CardContent } from '@/components/ui/card';
 
 interface RegulationRow {
   id: string;
@@ -128,38 +130,44 @@ export default async function RegulationsPage() {
       </div>
 
       {/* Overall Summary */}
-      <div className="grid gap-4 sm:grid-cols-3">
-        <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-card)] p-5">
-          <p className="text-sm text-[var(--color-muted-foreground)]">Overall Compliance</p>
-          <p className="mt-1 text-3xl font-bold">{overallPercentage}%</p>
-          <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
-            {completedItems} of {totalItems} items completed
-          </p>
-        </div>
-        <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-card)] p-5">
-          <p className="text-sm text-[var(--color-muted-foreground)]">Regulations</p>
-          <p className="mt-1 text-3xl font-bold">{sortedRegs.length}</p>
-          <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
-            applicable to {company.name}
-          </p>
-        </div>
-        <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-card)] p-5">
-          <p className="text-sm text-[var(--color-muted-foreground)]">Total Checklist Items</p>
-          <p className="mt-1 text-3xl font-bold">{items.length}</p>
-          <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
-            across all regulations
-          </p>
-        </div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <Card>
+          <div className="p-5">
+            <p className="text-sm text-[var(--color-muted-foreground)]">Overall Compliance</p>
+            <p className="mt-1 text-3xl font-bold">{overallPercentage}%</p>
+            <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
+              {completedItems} of {totalItems} items completed
+            </p>
+          </div>
+        </Card>
+        <Card>
+          <div className="p-5">
+            <p className="text-sm text-[var(--color-muted-foreground)]">Regulations</p>
+            <p className="mt-1 text-3xl font-bold">{sortedRegs.length}</p>
+            <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
+              applicable to {company.name}
+            </p>
+          </div>
+        </Card>
+        <Card>
+          <div className="p-5">
+            <p className="text-sm text-[var(--color-muted-foreground)]">Total Checklist Items</p>
+            <p className="mt-1 text-3xl font-bold">{items.length}</p>
+            <p className="mt-1 text-xs text-[var(--color-muted-foreground)]">
+              across all regulations
+            </p>
+          </div>
+        </Card>
       </div>
 
       {/* Regulation Cards */}
       {sortedRegs.length === 0 ? (
-        <div className="rounded-lg border border-[var(--color-border)] p-10 text-center">
+        <Card className="p-10 text-center">
           <p className="text-lg font-medium">No applicable regulations found</p>
           <p className="mt-1 text-sm text-[var(--color-muted-foreground)]">
             Complete onboarding to determine which regulations apply to your company.
           </p>
-        </div>
+        </Card>
       ) : (
         <div className="space-y-4">
           {sortedRegs.map((cr) => (

@@ -5,5 +5,6 @@ export { Textarea, type TextareaProps } from './textarea';
 export { Select, type SelectProps } from './select';
 export { Badge, badgeVariants, type BadgeProps } from './badge';
 export { Progress, type ProgressProps } from './progress';
+export { Skeleton } from './skeleton';
 export { Sidebar, SidebarHeader, SidebarContent, SidebarFooter, SidebarNavItem } from './sidebar';
 export { Wizard, type WizardStep } from './wizard';
