@@ -10,6 +10,7 @@ import {
   Badge,
   Progress,
 } from '@/components/ui';
+import { Skeleton } from '@/components/ui/skeleton';
 
 interface RegulationRow {
   id: string;
@@ -196,7 +197,7 @@ export default async function DashboardPage() {
                 Upcoming Enforcement Deadline
               </p>
               <p className="mt-1 text-lg font-semibold">
-                {nextDeadline.name} —{' '}
+                {nextDeadline.name}—{' '}
                 {nextDeadline.date.toLocaleDateString('en-DK', {
                   year: 'numeric',
                   month: 'long',
@@ -215,7 +216,7 @@ export default async function DashboardPage() {
       )}
 
       {/* Compliance Overview */}
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {/* Overall Compliance Score — larger card */}
         <Card className="col-span-2 flex flex-col items-center justify-center p-8 lg:col-span-1">
           <ComplianceScore percentage={overallScore} size={110} />
@@ -310,7 +311,7 @@ export default async function DashboardPage() {
                       </div>
                     </div>
                     <div className="mt-3">
-                      <Progress value={compliance} />
+                      <Progress value={compliance} aria-label={`Compliance: ${compliance}% for ${reg.short_name}`} />
                     </div>
                     {deadline && (
                       <p className={`mt-2 text-xs ${urgency?.className}`}>

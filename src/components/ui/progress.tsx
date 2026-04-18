@@ -6,10 +6,12 @@ export interface ProgressProps extends HTMLAttributes<HTMLDivElement> {
   max?: number;
   /** Show percentage label beside the track */
   showLabel?: boolean;
+  /** Screen reader accessible label */
+  'aria-label'?: string;
 }
 
 const Progress = forwardRef<HTMLDivElement, ProgressProps>(
-  ({ className, value = 0, max = 100, showLabel = false, ...props }, ref) => {
+  ({ className, value = 0, max = 100, showLabel = false, 'aria-label': ariaLabel, ...props }, ref) => {
     const percentage = Math.min(100, Math.max(0, (value / max) * 100));
 
     const track = (
@@ -19,6 +21,7 @@ const Progress = forwardRef<HTMLDivElement, ProgressProps>(
         aria-valuenow={value}
         aria-valuemin={0}
         aria-valuemax={max}
+        aria-label={ariaLabel ?? `Progress: ${Math.round(percentage)}%`}
         className={cn(
           'relative h-2 w-full overflow-hidden rounded-full bg-secondary',
           showLabel && 'flex-1',
